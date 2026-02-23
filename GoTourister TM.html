@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GoTourister TM US</title>
+    <link rel = "icon" type = "image/png" href = "logo.png">
+    <style>
+        {box-sizing: border-box;}
+
+        body{font-family: Arial, Helvetica, sans-serif;}
+
+        header {background-color: lightgreen;padding: 30px;text-align: center;font-size: 35px;color: white;}
+        {box-sizing: border-box;}
+        body{font-family: Arial, Helvetica, sans-serif;}
+        nav{text-align: left; float:left; width:30%; height:100px;background:pink; padding:20px;}
+        article{display:none;float:left;padding:20px;width:70;background-color:powderblue;}
+        article:target {display:block}
+        #Singapore:target = #Singapore,
+        #Singapore {display:block}
+        section::after {content:" ";clear:both;display:table}
+        footer{background-color: navy;padding: 10px;text-align: center;color: white;}
+        @media (max-width: 600px) {nav, article {width: 100%;height: auto;}}
+    </style>
+</head>
+<body style="background-color:powderblue;text-align:center;">
+
+<header>
+    <h2>GoTourister TM US Official Website</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><a href = "#Singapore">Singapore</a></li>
+            <li><a href = "#Paris">Paris</a></li>
+            <li><a href = "#London">London</a></li>
+            <li><a href = "#Music">Travel Music MP3 Files (This way, you can listen to your favorite songs from right here on the website.)</a></li>
+        </ul>
+    </nav>
+    <article id = Singapore>
+        <h1 style = "text-align: center">Singapore</h1>
+        <p>Singapore is considered the "vibrant" city. It is held in high regard by tourists and contains many amazing tourist spots.<br>These include the Gardens by the Bay, the Marina Bay Sands Complex, and many waterfalls that catch the eyes of even the pickiest travelers. If you love sightseeing, this is a place you have to visit.</p>
+        <p title = "Gardens by the Bay">
+        <img src="singapore2.jpg" width = 300 height = 300 alt="Gardens by the Bay">
+        <p title = "Marina Bay Sands Complex">
+        <img src="singapore3.jpg" width = 300 height = 300 alt="Marina Bay Sands Complex">
+        <p title = "Singapore Waterfall">
+        <img src="singapore1.jpg" width = 300 height = 300 alt="Singapore Waterfall">
+    </article>
+    <article id = Paris>
+        <h1>Paris</h1>
+        <p>Paris, a huge city located in North-Central France, has many iconic landmarks that tourists deserve to visit. These include the famous Eiffel Tower, Louvre Museum, and much more! If you love famous landmarks, delicious food, and eyecatching souvenirs, make sure to add "Paris Tour" to your to-do list.</p>
+        <p title ="Eiffel Tower">
+        <img src="paris1.jpg" width = 300 height = 300 alt="Eiffel Tower">
+        <p title ="Louvre Museum">
+        <img src="paris2.jpg" width = 300 height = 300 alt="Louvre Museum">
+    </article>
+    <article id = London>
+        <h1>London</h1>
+        <p>London is the capital of the UK and is visited year-round by tourists. It has many highlights including the Big Ben landmark and the Tower of London. So if you desire a calm day and a visit full of photographs sure to make your family album, be sure to visit London.</p>
+        <p title = "Big Ben Landmark">
+        <img src="london1.jpg" width = 300 height = 300 alt="Big Ben Landmark">
+        <p title = "Tower of London">
+        <img src="london2.jpg" width = 300 height = 300 alt="Tower of London">
+    </article>
+    <article id = Music>
+        <h1>Music</h1>
+        <h2>Beautiful Things - Benson Boone</h2>
+        <audio controls>
+            <source src="Benson Boone - Beautiful Things (Official Lyric Video).mp3" type="audio/mp3">
+        </audio>
+        <h2>Espresso - Sabrina Carpenter</h2>
+        <audio controls>
+            <source src = "Sabrina Carpenter - Espresso (Official Audio).mp3" type="audio/mp3">
+        </audio>
+        <h2>Birds of a Feather - Billie Eilish</h2>
+        <audio controls>
+            <source src="Billie%20Eilish%20-%20BIRDS%20OF%20A%20FEATHER%20(Official%20Lyric%20Video).mp3">
+        </audio>
+        <h2>You Belong With Me - Taylor Swift</h2>
+        <audio controls>
+            <source src="Taylor%20Swift%20-%20You%20Belong%20With%20Me.mp3" type="audio/mp3">
+        </audio>
+    </article>
+</section>
+<footer>
+    <h1>About us</h1>
+    <p>We are a local company based in Los Angeles and love providing others their loved tourist spots.</p>
+    <h1>Contact Us</h1>
+    <button onclick = "document.location = 'mailto:gotouristerteam@executive.office.com'">Official Email: gotouristerteam@executive.office.com</button>
+    <button onclick = "document.location = 'tel:+1 (121)-131-1830'">Official Phone: +1 (121)-131-1830</button>
+    <button onclick = "document.location = 'tel: (738)-171-9892'">24/7 AI Chatbot Assistance: (738)-171-9892 (Only for our GoTourister Members)</button>
+</footer>
+</body>
+</html>
